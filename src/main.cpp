@@ -3,7 +3,6 @@
 #include "alg.h"
 
 int main() {
-    int result = gcd(10, 15);
-    std::cout << result << std::endl;
+    std::cout << gcd(10, 15) << std::endl; // Выведет 5
     return 0;
 }
