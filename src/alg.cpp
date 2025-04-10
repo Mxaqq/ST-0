@@ -1,6 +1,6 @@
 // Copyright 2021 NNTU-CS
 
-nt gcd(int a, int b) {
+int gcd(int a, int b) {
     while (b != 0) {
         int temp = b;
         b = a % b;
